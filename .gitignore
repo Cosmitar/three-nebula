@@ -63,3 +63,4 @@ sandbox/common/three-nebula.js.map
 
 # Build
 build/
+dist/
