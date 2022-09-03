@@ -16,8 +16,8 @@ export default class Spring extends Behaviour {
    * @param {number} z - Z axis spring
    * @param {number} spring - Spring factor
    * @param {number} friction - Spring friction
-   * @param {number} life - The life of the behaviour
-   * @param {function} easing - The easing equation to use for transforms
+   * @param {number} [life] - The life of the behaviour
+   * @param {function} [easing] - The easing equation to use for transforms
    * @param {boolean} [isEnabled=true] - Determines if the behaviour will be applied or not
    * @return void
    */

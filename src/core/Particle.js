@@ -28,7 +28,7 @@ export default class Particle {
   /**
    * Constructs a Particle instance.
    *
-   * @param {object} properties - The properties to instantiate the particle with
+   * @param {object} [properties] - The properties to instantiate the particle with
    * @property {number} properties.life - The particle's life
    * @property {number} properties.age - The particle's age
    * @property {number} properties.energy - The particle's energy loss
@@ -94,7 +94,7 @@ export default class Particle {
     this.body = DEFAULT_BODY;
     /**
      * @desc The particle's parent
-     * @type {?Emitter}
+     * @type {Emitter=}
      */
     this.parent = DEFAULT_PARENT;
     /**

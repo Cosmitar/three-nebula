@@ -80,8 +80,8 @@ export default class Attraction extends Behaviour {
    * @param {Vector3D} targetPosition - the position the particles will be attracted to
    * @param {number} force - the attraction force multiplier
    * @param {number} radius - the attraction radius
-   * @param {number} life - the life of the particle
-   * @param {function} easing - The behaviour's decaying trend
+   * @param {number} [life] - the life of the particle
+   * @param {function} [easing] - The behaviour's decaying trend
    * @return void
    */
   reset(

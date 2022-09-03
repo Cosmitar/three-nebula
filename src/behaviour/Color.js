@@ -15,8 +15,8 @@ export default class Color extends Behaviour {
    *
    * @param {number|string} colorA - the starting color
    * @param {number|string} colorB - the ending color
-   * @param {number} life - the life of the particle
-   * @param {function} easing - The behaviour's decaying trend
+   * @param {number} [life] - the life of the particle
+   * @param {function} [easing] - The behaviour's decaying trend
    * @param {boolean} [isEnabled=true] - Determines if the behaviour will be applied or not
    * @return void
    */

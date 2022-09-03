@@ -16,8 +16,8 @@ export default class CrossZone extends Behaviour {
    *
    * @param {Zone} zone - the zone used to apply to particles with this behaviour
    * @param {string} [crossType=DEFAULT_CROSS_TYPE] - enum of cross types, valid strings include 'dead', 'bound', 'cross'
-   * @param {number} life - The life of the particle
-   * @param {function} easing - The behaviour's decaying trend
+   * @param {number} [life] - The life of the particle
+   * @param {function} [easing] - The behaviour's decaying trend
    * @param {boolean} [isEnabled=true] - Determines if the behaviour will be applied or not
    */
   constructor(zone, crossType, life, easing, isEnabled) {
@@ -31,8 +31,8 @@ export default class CrossZone extends Behaviour {
    *
    * @param {Zone} zone - the zone used to apply to particles with this behaviour
    * @param {string} [crossType=DEFAULT_CROSS_TYPE] - enum of cross types, valid strings include 'dead', 'bound', 'cross'
-   * @param {number} life - The life of the particle
-   * @param {function} easing - The behaviour's decaying trend
+   * @param {number} [life] - The life of the particle
+   * @param {function} [easing] - The behaviour's decaying trend
    */
   reset(zone, crossType = DEFAULT_CROSS_TYPE, life, easing) {
     /**

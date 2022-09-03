@@ -18,8 +18,8 @@ export default class Texture extends Initializer {
    *
    * @param {object} THREE - The Web GL API we are using eg., THREE
    * @param {string} texture - The sprite texture
-   * @param {object|undefined} materialProperties - The sprite material properties
-   * @param {?Texture} loadedTexture - Preloaded THREE.Texture instance
+   * @param {object|undefined} [materialProperties] - The sprite material properties
+   * @param {Texture} [loadedTexture] - Preloaded THREE.Texture instance
    */
   constructor(
     THREE,

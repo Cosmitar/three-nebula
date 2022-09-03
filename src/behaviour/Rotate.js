@@ -15,8 +15,8 @@ export default class Rotate extends Behaviour {
    * @param {number} x - X axis rotation
    * @param {number} y - Y axis rotation
    * @param {number} z - Z axis rotation
-   * @param {number} life - The life of the behaviour
-   * @param {function} easing - The easing equation to use for transforms
+   * @param {number} [life] - The life of the behaviour
+   * @param {function} [easing] - The easing equation to use for transforms
    * @param {boolean} [isEnabled=true] - Determines if the behaviour will be applied or not
    * @return void
    */
@@ -55,8 +55,8 @@ export default class Rotate extends Behaviour {
    * @param {number} x - X axis rotation
    * @param {number} y - Y axis rotation
    * @param {number} z - Z axis rotation
-   * @param {number} life - the life of the behaviour
-   * @param {function} easing - the easing equation to use for transforms
+   * @param {number} [life] - the life of the behaviour
+   * @param {function} [easing] - the easing equation to use for transforms
    * @return void
    */
   reset(x, y, z, life, easing) {

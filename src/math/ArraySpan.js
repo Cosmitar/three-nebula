@@ -44,7 +44,7 @@ export default class ArraySpan extends Span {
  * Attempts to create an ArraySpan from the items provided.
  *
  * @param {mixed} items - Items to try and create an ArraySpan from
- * @return {?ArraySpan}
+ * @return {ArraySpan=}
  */
 export const createArraySpan = items => {
   if (!items) {

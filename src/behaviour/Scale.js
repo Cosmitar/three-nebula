@@ -13,9 +13,9 @@ export default class Scale extends Behaviour {
    * Constructs a Scale behaviour instance.
    *
    * @param {number} scaleA - the starting scale value
-   * @param {?number} scaleB - the ending scale value
-   * @param {number} life - the life of the behaviour
-   * @param {function} easing - the easing equation to use for transforms
+   * @param {number} [scaleB] - the ending scale value
+   * @param {number} [life] - the life of the behaviour
+   * @param {function} [easing] - the easing equation to use for transforms
    * @param {boolean} [isEnabled=true] - Determines if the behaviour will be applied or not
    * @return void
    */
@@ -51,9 +51,9 @@ export default class Scale extends Behaviour {
    * Resets the behaviour properties.
    *
    * @param {number} scaleA - the starting scale value
-   * @param {?number} scaleB - the ending scale value
-   * @param {number} life - the life of the behaviour
-   * @param {function} easing - the easing equation to use for transforms
+   * @param {number} [scaleB] - the ending scale value
+   * @param {number} [life] - the life of the behaviour
+   * @param {function} [easing] - the easing equation to use for transforms
    * @return void
    */
   reset(scaleA, scaleB, life, easing) {

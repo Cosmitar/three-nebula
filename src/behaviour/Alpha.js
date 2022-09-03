@@ -14,9 +14,9 @@ export default class Alpha extends Behaviour {
    * Constructs an Alpha behaviour instance.
    *
    * @param {number} alphaA - The starting alpha value
-   * @param {?number} alphaB - The ending alpha value
-   * @param {number} life - The life of the behaviour
-   * @param {function} easing - The easing equation to use for transforms
+   * @param {number} [alphaB] - The ending alpha value
+   * @param {number} [life] - The life of the behaviour
+   * @param {function} [easing] - The easing equation to use for transforms
    * @param {boolean} [isEnabled=true] - Determines if the behaviour will be applied or not
    * @return void
    */
@@ -64,9 +64,9 @@ export default class Alpha extends Behaviour {
    * Resets the behaviour properties.
    *
    * @param {number} alphaA - the starting alpha value
-   * @param {?number} alphaB - the ending alpha value
-   * @param {number} life - the life of the behaviour
-   * @param {function} easing - the easing equation to use for transforms
+   * @param {number} [alphaB] - the ending alpha value
+   * @param {number} [life] - the life of the behaviour
+   * @param {function} [easing] - the easing equation to use for transforms
    * @return void
    */
   reset(alphaA = 1, alphaB = null, life, easing) {

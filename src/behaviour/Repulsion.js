@@ -13,8 +13,8 @@ export default class Repulsion extends Attraction {
    * @param {Vector3D} targetPosition - The position the particles will be repelled from
    * @param {number} force - The repulsion force scalar multiplier
    * @param {number} radius - The repulsion radius
-   * @param {number} life - The life of the particle
-   * @param {function} easing - The behaviour's decaying trend
+   * @param {number} [life] - The life of the particle
+   * @param {function} [easing] - The behaviour's decaying trend
    * @return void
    */
   constructor(targetPosition, force, radius, life, easing, isEnabled = true) {
@@ -39,8 +39,8 @@ export default class Repulsion extends Attraction {
    * @param {Vector3D} targetPosition - the position the particles will be attracted to
    * @param {number} force - the attraction force multiplier
    * @param {number} radius - the attraction radius
-   * @param {number} life - the life of the particle
-   * @param {function} easing - The behaviour's decaying trend
+   * @param {number} [life] - the life of the particle
+   * @param {function} [easing] - The behaviour's decaying trend
    * @return void
    */
   reset(targetPosition, force, radius, life, easing) {

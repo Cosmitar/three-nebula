@@ -52,7 +52,7 @@ export default class ColorSpan extends Span {
  * Attempts to create an ArraySpan from the colors provided.
  *
  * @param {mixed} colors - colors to try and create an ArraySpan from
- * @return {?ColorSpan}
+ * @return {ColorSpan=}
  */
 export const createColorSpan = colors => {
   if (!colors) {

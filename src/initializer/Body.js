@@ -11,8 +11,8 @@ export default class Body extends Initializer {
    *
    * @param {string|number|object} body - The content for the particle body, can
    * be a color or an object (mesh)
-   * @param {?number} w - The width of the particle body
-   * @param {?number} h - The height of the particle body
+   * @param {number} [w] - The width of the particle body
+   * @param {number} [h] - The height of the particle body
    * @return void
    */
   constructor(body, w, h, isEnabled = true) {

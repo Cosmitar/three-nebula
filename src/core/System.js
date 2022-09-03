@@ -102,7 +102,7 @@ export default class System {
    *
    * @param {object} json - The JSON to create the System instance from
    * @param {object} THREE - The Web GL Api to use eg., THREE
-   * @param {?object} options - Optional config options
+   * @param {object} [options] - Optional config options
    * @return {Promise<System>}
    */
   static fromJSONAsync(json, THREE, options) {

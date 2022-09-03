@@ -29,7 +29,7 @@ export default class Emitter extends Particle {
   /**
    * Constructs an Emitter instance.
    *
-   * @param {object} properties - The properties to instantiate the emitter with
+   * @param {object} [properties] - The properties to instantiate the emitter with
    * @return void
    */
   constructor(properties) {

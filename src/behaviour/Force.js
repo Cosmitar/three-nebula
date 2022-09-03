@@ -13,8 +13,8 @@ export default class Force extends Behaviour {
    * @param {number} fx - the x axis force
    * @param {number} fy - the y axis force
    * @param {number} fz - the z axis force
-   * @param {number} life - the life of the particle
-   * @param {function} easing - The behaviour's decaying trend
+   * @param {number} [life] - the life of the particle
+   * @param {function} [easing] - The behaviour's decaying trend
    * @param {boolean} [isEnabled=true] - Determines if the behaviour will be applied or not
    * @return void
    */

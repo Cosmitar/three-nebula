@@ -17,8 +17,8 @@ export default class RandomDrift extends Behaviour {
    * @param {number} driftY - y axis drift
    * @param {number} driftZ - z axis drift
    * @param {number} [delay=DEFAULT_RANDOM_DRIFT_DELAY] - drift delay
-   * @param {number} life - The life of the particle
-   * @param {function} easing - The behaviour's decaying trend
+   * @param {number} [life] - The life of the particle
+   * @param {function} [easing] - The behaviour's decaying trend
    * @return void
    */
   constructor(
@@ -48,8 +48,8 @@ export default class RandomDrift extends Behaviour {
    * @param {number} driftY - y axis drift
    * @param {number} driftZ - z axis drift
    * @param {number} [delay=DEFAULT_RANDOM_DRIFT_DELAY] - drift delay
-   * @param {number} life - The life of the particle
-   * @param {function} easing - The behaviour's decaying trend
+   * @param {number} [life] - The life of the particle
+   * @param {function} [easing] - The behaviour's decaying trend
    */
   reset(
     driftX,

@@ -12,8 +12,8 @@ export default class Collision extends Behaviour {
    * @param {Emitter} emitter - The emitter containing the particles to detect collisions against
    * @param {boolean} useMass - Determiens whether to use mass or not
    * @param {function} onCollide - Function to call when particles collide
-   * @param {number} life - The life of the particle
-   * @param {function} easing - The behaviour's decaying trend
+   * @param {number} [life] - The life of the particle
+   * @param {function} [easing] - The behaviour's decaying trend
    * @param {boolean} [isEnabled=true] - Determines if the behaviour will be applied or not
    * @return void
    */
@@ -29,8 +29,8 @@ export default class Collision extends Behaviour {
    * @param {Emitter} emitter - The emitter containing the particles to detect collisions against
    * @param {boolean} useMass - Determiens whether to use mass or not
    * @param {function} onCollide - Function to call when particles collide
-   * @param {number} life - The life of the particle
-   * @param {function} easing - The behaviour's decaying trend
+   * @param {number} [life] - The life of the particle
+   * @param {function} [easing] - The behaviour's decaying trend
    * @return void
    */
   reset(emitter, useMass, onCollide, life, easing) {

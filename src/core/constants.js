@@ -68,12 +68,12 @@ export const DEFAULT_SLEEP = false;
 export const DEFAULT_INDEX = 0;
 /**
  * @desc Default particle body
- * @type {?object}
+ * @type {object=}
  */
 export const DEFAULT_BODY = null;
 /**
  * @desc Default particle parent
- * @type {?Emitter}
+ * @type {Emitter=}
  */
 export const DEFAULT_PARENT = null;
 /**
