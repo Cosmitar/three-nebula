@@ -77,12 +77,10 @@ export default class SphereZone extends Zone {
   _cross() {
     console.warn(`${this.constructor.name} does not support the _cross method`);
   }
-}
 
-SphereZone.prototype.getPosition = (function() {
-  var tha, phi, r;
+  getPosition() {
+    let tha, phi, r;
 
-  return function() {
     this.random = Math.random();
 
     r = this.random * this.radius;
@@ -94,8 +92,8 @@ SphereZone.prototype.getPosition = (function() {
     this.vector.z = this.z + r * Math.cos(tha);
 
     return this.vector;
-  };
-})();
+  }
+}
 
 SphereZone.prototype._bound = (function() {
   var normal = new Vector3D(),
